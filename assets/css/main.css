@@ -3507,7 +3507,7 @@ input, select, textarea {
 .faux-leather-text {
         font-size: 100px;
         font-weight: bold;
-        font-family: Arial, sans-serif;
+        font-family: "Times New Roman", Times, serif; /* 타임스 폰트 계열 설정 */
         text-transform: uppercase;
         padding: 87px;
         display: inline-block;

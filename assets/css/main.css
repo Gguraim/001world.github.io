@@ -3509,8 +3509,7 @@ input, select, textarea {
         font-weight: bold;
         font-family: Arial, sans-serif;
         text-transform: uppercase;
-        color: #705543; /* 텍스트 색상 */
-        padding: 10px;
+        padding: 87px;
         display: inline-block;
         /* 인조 가죽 질감 이미지 배경 설정 */
         background-image: url('https://img.danawa.com/prod_img/500000/181/616/img/10616181_1.jpg?_v=20200220140347'); /* 인조 가죽 질감 이미지 URL */

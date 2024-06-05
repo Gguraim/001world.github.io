@@ -3224,300 +3224,294 @@ input, select, textarea {
 					padding: 0;
 				}
 
-/* XLarge */
-
-	@media screen and (max-width: 1680px) {
-
-		/* Basic */
-
-			body, input, select, textarea {
-				font-size: 14pt;
-			}
-
-		/* Header */
-
-			#header {
-				padding: 6em 0 6em 0 ;
-			}
-
-	}
-
-/* Large */
-
-	@media screen and (max-width: 1140px) {
-
-		/* Basic */
-
-			body, input, select, textarea {
-				font-size: 13pt;
-			}
-
-			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
-				display: none;
-			}
-
-		/* List */
-
-			ul.major-icons li {
-				padding: 2em;
-			}
-
-				ul.major-icons li .icon {
-					height: 8em;
-					line-height: 8em;
-					width: 8em;
-				}
-
-		/* Main */
-
-			.main {
-				padding: 4em 0 2em 0 ;
-			}
-
-				.main.style2 {
-					background-attachment: scroll;
-				}
-
-		/* Header */
-
-			#header {
-				padding: 5em 0 5em 0 ;
-				background-attachment: scroll;
-			}
-
-				#header br {
-					display: inline;
-				}
-
-		/* Footer */
-
-			#footer {
-				padding: 4em 0 4em 0 ;
-				background-attachment: scroll;
-			}
-
-	}
-
-/* Medium */
-
-	@media screen and (max-width: 980px) {
-
-		/* List */
-
-			ul.major-icons li {
-				padding: 2em;
-			}
-
-				ul.major-icons li .icon {
-					height: 7em;
-					line-height: 7em;
-					width: 7em;
-				}
-
-		/* Main */
-
-			.main {
-				padding: 5em 3em 3em 3em ;
-			}
-
-		/* Header */
-
-			#header {
-				padding: 8em 3em 8em 3em ;
-			}
-
-		/* Footer */
-
-			#footer {
-				padding: 5em 3em 5em 3em ;
-			}
-
-		/* One */
-
-			#one {
-				text-align: center;
-			}
-		/* Three */
-			#three {
-				text-align: center;
-			}
-
-/* Small */
-
-	@media screen and (max-width: 736px) {
-
-		/* Basic */
-
-			body, input, select, textarea {
-				font-size: 12pt;
-			}
-
-			h1 {
-				font-size: 1.75em;
-			}
-
-			h2 {
-				font-size: 1.5em;
-			}
-
-			h3 {
-				font-size: 1.1em;
-			}
-
-			h4 {
-				font-size: 1em;
-			}
-
-		/* List */
-
-			ul.major-icons li {
-				padding: 1.5em;
-			}
-
-				ul.major-icons li .icon {
-					height: 5em;
-					line-height: 5em;
-					width: 5em;
-				}
-
-					ul.major-icons li .icon:before {
-						font-size: 42px;
-					}
-
-		/* Icon */
-
-			.icon.major {
-				margin: 0 0 1em 0;
-			}
-
-		/* Button */
-
-			input[type="submit"],
-			input[type="reset"],
-			input[type="button"],
-			button,
-			.button {
-				height: 3em;
-				line-height: 3em;
-			}
-
-		/* Main */
-
-			.main {
-				padding: 3em 1.5em 1em 1.5em ;
-			}
-
-		/* Header */
-
-			#header {
-				padding: 4em 3em 4em 3em ;
-			}
-
-				#header .actions {
-					margin: 2em 0 0 0;
-				}
-
-		/* Footer */
-
-			#footer {
-				padding: 3em 1.5em 3em 1.5em ;
-			}
-
-	}
-
-/* XSmall */
-
-	@media screen and (max-width: 480px) {
-
-		/* Button */
-
-			input[type="submit"],
-			input[type="reset"],
-			input[type="button"],
-			.button {
-				padding: 0;
-			}
-
-		/* Main */
-
-			.main {
-				padding: 2em 1.5em 0.1em 1.5em ;
-			}
-
-		/* Header */
-
-			#header {
-				padding: 4em 2em 4em 2em ;
-			}
-
-				#header br {
-					display: none;
-				}
-
-		/* Footer */
-
-			#footer {
-				padding: 2em 1.5em 2em 1.5em ;
-			}
-
-				#footer .copyright {
-					margin: 1.5em 0 0 0;
-				}
-
-					#footer .copyright li {
-						border: 0;
-						display: block;
-						margin: 1em 0 0 0;
-						padding: 0;
-					}
-
-						#footer .copyright li:first-child {
-							margin-top: 0;
-						}
-
-	}
-
-/* XXSmall */
-
-	@media screen and (max-width: 320px) {
-
-		/* Basic */
-
-			html, body {
-				min-width: 320px;
-			}
-
-		/* Main */
-
-			.main {
-				padding: 2em 1em 0.1em 1em ;
-			}
-
-		/* Header */
-
-			#header {
-				padding: 3em 1em 3em 1em ;
-			}
-
-		/* Footer */
-
-			#footer {
-				padding: 2em 1em 2em 1em ;
-			}
-
-	}
+        /* XLarge */
+        @media screen and (max-width: 1680px) {
+            /* Basic */
+            body, input, select, textarea {
+                font-size: 14pt;
+            }
+
+            /* Header */
+            #header {
+                padding: 6em 0 6em 0;
+            }
+        }
+
+        /* Large */
+        @media screen and (max-width: 1140px) {
+            /* Basic */
+            body, input, select, textarea {
+                font-size: 13pt;
+            }
+
+            h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
+                display: none;
+            }
+
+            /* List */
+            ul.major-icons li {
+                padding: 2em;
+            }
+
+            ul.major-icons li .icon {
+                height: 8em;
+                line-height: 8em;
+                width: 8em;
+            }
+
+            /* Main */
+            .main {
+                padding: 4em 0 2em 0;
+            }
+
+            .main.style2 {
+                background-attachment: scroll;
+            }
+
+            /* Header */
+            #header {
+                padding: 5em 0 5em 0;
+                background-attachment: scroll;
+            }
+
+            #header br {
+                display: inline;
+            }
+
+            /* Footer */
+            #footer {
+                padding: 4em 0 4em 0;
+                background-attachment: scroll;
+            }
+
+            /* Faux Leather Text */
+            .faux-leather-text {
+                font-size: 80px; /* 폰트 크기 조정 */
+                padding: 70px; /* 패딩 조정 */
+            }
+        }
+
+        /* Medium */
+        @media screen and (max-width: 980px) {
+            /* List */
+            ul.major-icons li {
+                padding: 2em;
+            }
+
+            ul.major-icons li .icon {
+                height: 7em;
+                line-height: 7em;
+                width: 7em;
+            }
+
+            /* Main */
+            .main {
+                padding: 5em 3em 3em 3em;
+            }
+
+            /* Header */
+            #header {
+                padding: 8em 3em 8em 3em;
+            }
+
+            /* Footer */
+            #footer {
+                padding: 5em 3em 5em 3em;
+            }
+
+            /* One */
+            #one {
+                text-align: center;
+            }
+
+            /* Three */
+            #three {
+                text-align: center;
+            }
+
+            /* Faux Leather Text */
+            .faux-leather-text {
+                font-size: 60px; /* 폰트 크기 조정 */
+                padding: 50px; /* 패딩 조정 */
+            }
+        }
+
+        /* Small */
+        @media screen and (max-width: 736px) {
+            /* Basic */
+            body, input, select, textarea {
+                font-size: 12pt;
+            }
+
+            h1 {
+                font-size: 1.75em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            h3 {
+                font-size: 1.1em;
+            }
+
+            h4 {
+                font-size: 1em;
+            }
+
+            /* List */
+            ul.major-icons li {
+                padding: 1.5em;
+            }
+
+            ul.major-icons li .icon {
+                height: 5em;
+                line-height: 5em;
+                width: 5em;
+            }
+
+            ul.major-icons li .icon:before {
+                font-size: 42px;
+            }
+
+            /* Icon */
+            .icon.major {
+                margin: 0 0 1em 0;
+            }
+
+            /* Button */
+            input[type="submit"],
+            input[type="reset"],
+            input[type="button"],
+            button,
+            .button {
+                height: 3em;
+                line-height: 3em;
+            }
+
+            /* Main */
+            .main {
+                padding: 3em 1.5em 1em 1.5em;
+            }
+
+            /* Header */
+            #header {
+                padding: 4em 3em 4em 3em;
+            }
+
+            #header .actions {
+                margin: 2em 0 0 0;
+            }
+
+            /* Footer */
+            #footer {
+                padding: 3em 1.5em 3em 1.5em;
+            }
+
+            /* Faux Leather Text */
+            .faux-leather-text {
+                font-size: 40px; /* 폰트 크기 조정 */
+                padding: 30px; /* 패딩 조정 */
+            }
+        }
+
+        /* XSmall */
+        @media screen and (max-width: 480px) {
+            /* Button */
+            input[type="submit"],
+            input[type="reset"],
+            input[type="button"],
+            .button {
+                padding: 0;
+            }
+
+            /* Main */
+            .main {
+                padding: 2em 1.5em 0.1em 1.5em;
+            }
+
+            /* Header */
+            #header {
+                padding: 4em 2em 4em 2em;
+            }
+
+            #header br {
+                display: none;
+            }
+
+            /* Footer */
+            #footer {
+                padding: 2em 1.5em 2em 1.5em;
+            }
+
+            #footer .copyright {
+                margin: 1.5em 0 0 0;
+            }
+
+            #footer .copyright li {
+                border: 0;
+                display: block;
+                margin: 1em 0 0 0;
+                padding: 0;
+            }
+
+            #footer .copyright li:first-child {
+                margin-top: 0;
+            }
+
+            /* Faux Leather Text */
+            .faux-leather-text {
+                font-size: 30px; /* 폰트 크기 조정 */
+                padding: 20px; /* 패딩 조정 */
+            }
+        }
+
+        /* XXSmall */
+        @media screen and (max-width: 320px) {
+            /* Basic */
+            html, body {
+                min-width: 320px;
+            }
+
+            /* Main */
+            .main {
+                padding: 2em 1em 0.1em 1em;
+            }
+
+            /* Header */
+            #header {
+                padding: 3em 1em 3em 1em;
+            }
+
+            /* Footer */
+            #footer {
+                padding: 2em 1em 2em 1em;
+            }
 
 .faux-leather-text {
-        font-size: 100px;
-        font-weight: bold;
-        font-family: "Times New Roman", Times, serif; /* 타임스 폰트 계열 설정 */
-        text-transform: uppercase;
-        padding: 87px;
-        display: inline-block;
-        /* 인조 가죽 질감 이미지 배경 설정 */
-        background-image: url('https://img.danawa.com/prod_img/500000/181/616/img/10616181_1.jpg?_v=20200220140347'); /* 인조 가죽 질감 이미지 URL */
-        background-size: cover;
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
-    }
+            font-size: 100px;
+            font-weight: bold;
+            font-family: "Times New Roman", Times, serif; /* 타임스 폰트 계열 설정 */
+            text-transform: uppercase;
+            padding: 87px;
+            display: inline-block;
+            /* 인조 가죽 질감 이미지 배경 설정 */
+            background-image: url('https://img.danawa.com/prod_img/500000/181/616/img/10616181_1.jpg?_v=20200220140347'); /* 인조 가죽 질감 이미지 URL */
+            background-size: cover;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            /* 추가된 스타일 */
+            white-space: nowrap; /* 텍스트가 한 줄로 표시되도록 설정 */
+            overflow: hidden; /* 넘치는 텍스트를 숨기기 */
+            text-overflow: ellipsis; /* 넘치는 텍스트를 생략부호(...)로 표시 */
+            width: 100%; /* 요소가 부모 요소의 너비를 차지하도록 설정 */
+            box-sizing: border-box; /* 패딩을 포함한 너비 계산 */
+        }
+
+ /* Faux Leather Text */
+            .faux-leather-text {
+                font-size: 25px; /* 폰트 크기 조정 */
+                padding: 15px; /* 패딩 조정 */
+            }
+        }
